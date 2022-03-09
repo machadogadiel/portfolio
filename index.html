@@ -2,51 +2,56 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
 </head>
 
-<body>
+<body id="root">
+    <header>
+        <h2 class="logo">.gadiel{}</h2>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Formação</a></li>
+                <li><a href="#">Trajetoria</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <article>
-            <h1>Gadiel Machado</h1>
-            <p>Estudante</p>
-        </article>
+        <section class="showcase-section">
+            <div class="content-wrapper">
 
-        <article>
-            <h1>Habilidades</h1>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Scrum</li>
-            </ul>
-        </article>
+                <div class="text-container">
+                    <h1 class="name">Gadiel Machado</h1><br>
+                    <h3 class="role">Desenvolvedor Web Full-Stack </h3>
+                </div>
 
-        <article>
-            <h1>Formação</h1>
-            <ul>
-                <li>Ensino Médio Completo</li><br>
-                <small>Colégio Estadual Benedicto João Cordeiro</small>
-            </ul>
-            
-        </article>
 
-        <article>
-            <h1>Experiencias</h1>
+                <div class="image-container">
+                    <div id="coding-svg"></div>
+                </div>
 
-            <ul>
-                <li>Assistente Administrativo</li><br>
-                <small>Auto Peças Marechal 2021</small>
-            </ul>
-        </article>
+            </div>
+        </section>
+
+
     </main>
 
 
+    <footer>
 
+    </footer>
+
+    <script src="https://kit.fontawesome.com/e87f03ae6c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="/js/animation.js" type="text/javascript"></script>
 </body>
 
 </html>
